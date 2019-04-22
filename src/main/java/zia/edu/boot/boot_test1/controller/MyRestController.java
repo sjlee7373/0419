@@ -24,6 +24,9 @@ public class MyRestController {
         return myService.getAccount();
 
     }
-
+    @GetMapping("/test")
+    public String Hello(){
+        return "test " + myService.getName();
+    }
 
 }
