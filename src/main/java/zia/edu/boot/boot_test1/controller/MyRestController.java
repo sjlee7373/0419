@@ -25,7 +25,7 @@ public class MyRestController {
 
     }
     @GetMapping("/test")
-    public String Hello(){
+    public String test(){
         return "test " + myService.getName();
     }
 
